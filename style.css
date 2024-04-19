@@ -1,0 +1,51 @@
+.container {
+  background-color: hsl(218, 44%, 22%);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the container take up the full height of the viewport */
+}
+
+.card {
+  width: 40%; /* Adjust width as needed */
+  max-width: 400px; /* Set maximum width to avoid stretching on larger screens */
+  height: auto;
+  display: flex; /* Use flexbox to center its children */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  background-color: #fff;
+  border: 1px solid transparent; /* Set border color to transparent */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding for better appearance */
+  text-align: center; /* Center text */
+}
+
+.qr_code_header {
+  padding: 20px; /* Increase padding for better spacing around the QR code */
+}
+
+.qr_code_header img {
+  width: 200px; /* Adjust width of the QR code image */
+  height: auto; /* Let the height adjust proportionally */
+  border-radius: 10px;
+}
+
+.heading {
+  font-weight: 700;
+  color: #000;
+}
+
+.subHeading {
+  font-weight: 400;
+  color: #000;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
